@@ -5,12 +5,13 @@
 "type": "module",
 "homepage": "https://rufat1902.github.io/Forecast-app/",
 "scripts": {
- "dev": "vite",
- "build": "vite build",
- "deploy": "gh-pages -d dist",
- "lint": "eslint .",
- "preview": "vite preview"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
 "dependencies": {
  "@popperjs/core": "^2.11.8",
  "bootstrap": "^5.3.7",
