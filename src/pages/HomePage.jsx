@@ -13,7 +13,7 @@ function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-blue-100">
-      <h1 className="text-3xl font-bold mb-4">Check weather</h1>
+      <h1 className="text-3xl font-bold mb-4">Check the weather</h1>
       <input
         type="text"
         placeholder="Enter location"
