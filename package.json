@@ -3,7 +3,7 @@
 "private": true,
 "version": "0.0.0",
 "type": "module",
-"homepage": "https://rufat1902.github.io/Forecast-app/",
+"homepage": "https://rufat1902.github.io/Forecast-app",
 "scripts": {
  "dev": "vite",
  "build": "vite build",
